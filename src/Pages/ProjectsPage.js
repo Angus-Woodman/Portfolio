@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Project from "../Components/Project"
+import ProjectSlideshow from "../Components/ProjectSlideshow"
 
-class Search extends Component {
+class ProjectsPage extends Component {
 
   state =  {projects: [
     {
@@ -39,13 +40,13 @@ class Search extends Component {
   render() {
       return (
           <>
-            <h1>Projects</h1>
-            {this.state.projects.map((project) => (
+            <ProjectSlideshow />
+            {/*this.state.projects.map((project) => (
               <Project key={project.id} idx={project.id} link={project.link} img={project.img} title={project.title}/>
-            ))}
+            ))*/}
           </>
       );
   }
 }
 
-export default Search;
+export default ProjectsPage;
