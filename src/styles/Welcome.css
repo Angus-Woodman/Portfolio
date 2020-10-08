@@ -1,9 +1,9 @@
-.welcome-container {
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+.welcomeContainer {
+  margin-top: 20vh;
+  text-align: center;
 }
 
 .welcomeTitle {
-  text-align: center;
+  font-size: 6vh;
+  margin-bottom: 0;
 }
