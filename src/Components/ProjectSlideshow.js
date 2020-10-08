@@ -9,6 +9,11 @@ const slideImages = [
   'https://i.imgur.com/EBsh1jN.png'
 ];
 
+const fadeProperties = {
+    duration: 3000,
+    pauseOnHover: true
+  };
+
 const projects =  [
   {
   id:1,
@@ -45,7 +50,7 @@ const projects =  [
 const ProjectSlideshow = () => {
     return (
       <div className="slide-container">
-        <Slide>
+        <Slide {...fadeProperties}>
           {projects.map((project) => (
             <div key={project.id} className="each-slide">
               <a href={project.link}>
