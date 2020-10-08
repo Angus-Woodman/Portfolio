@@ -1,7 +1,7 @@
 .navBar {
     width: 100%;
     background-color: cadetblue;
-    padding: 25px;
+    padding: 2vh;
     display: flex;
     justify-content: space-evenly;
 }
@@ -9,7 +9,7 @@
 a {
     color: rgba(255,255,255,0.5);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2vh;
     text-transform: uppercase;
 }
 
