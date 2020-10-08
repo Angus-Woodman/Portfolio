@@ -1,9 +1,11 @@
 .slide-container {
+  width:70%;
+  margin:auto;
   margin-top: 10vh;
 }
 
 .each-slide {
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
