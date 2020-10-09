@@ -1,13 +1,14 @@
 .navBar {
     width: 100%;
-    background-color: cadetblue;
+    margin: auto;
+    background-color: var(--navBarBackground);
     padding: 2vh;
     display: flex;
     justify-content: space-evenly;
 }
 
 a {
-    color: rgba(255,255,255,0.5);
+    color: var(--navBarText);
     text-decoration: none;
     font-size: 2vh;
     text-transform: uppercase;
@@ -15,11 +16,13 @@ a {
 
 a:hover {
     font-weight: 800;
-    color: white;
+    color: var(--navBarTextHover);
 }
 
 .active {
-    color: white;
+    color: var(--navBarTextHover);
 }
 
-.home-link { color: wheat; }
+button {
+  background-color: var(--navBarTextHover)
+}

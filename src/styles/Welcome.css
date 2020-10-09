@@ -9,6 +9,10 @@
 }
 
 .welcomeContainer i {
-  color: black;
+  color: var(--navBarTextHover);
   margin: 1.5vw 4vw 0 4vw;
+}
+
+.welcomeContainer hr {
+  border: 1px solid var(--navBarTextHover);
 }
