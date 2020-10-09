@@ -23,7 +23,7 @@ a:hover{
     color: var(--navBarTextHover);
 }
 
-button {
+.navBar button {
   background-color: var(--navBarBackground);
   cursor: pointer;
   border-radius: 8px;
@@ -32,7 +32,7 @@ button {
   padding: 0.5vw 2vw;
 }
 
-button:hover {
+.navBar button:hover {
   background-color: var(--navBarText);
   color:var(--navBarTextHover);
 }

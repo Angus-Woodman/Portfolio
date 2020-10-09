@@ -59,7 +59,8 @@ const ProjectSlideshow = () => {
           {projects.map((project) => (
             <div key={project.id} className="each-slide">
               <a href={project.link} target="_blank">
-                <div className="slideImage" style={{'backgroundImage': `url(${project.img})`, 'backgroundRepeat':'no-repeat', 'backgroundSize':'cover'}}>
+                <div className="slideImage">
+                  <img src={project.img} alt={project.title} />
                 </div>
                 <div className="overlay">
                   <div className="text">
