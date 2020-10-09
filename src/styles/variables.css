@@ -1,7 +1,7 @@
 :root {
-  --navBarText: rgba(191, 216, 170, 0.6);
-  --navBarTextHover: rgba(191, 216, 170, 1);
-  --navBarBackground: rgba(191, 216, 170, 0.3);
-  --mainText: rgba(191, 216, 170, 1);
-  --mainBackground: black;
+  --navBarText: rgba(0, 0, 0, 0.6);
+  --navBarTextHover: rgba(0,0,0, 1);
+  --navBarBackground: rgba(191, 216, 170, 0.8);
+  --mainText: black;
+  --mainBackground: white;
 }

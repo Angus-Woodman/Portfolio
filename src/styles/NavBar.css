@@ -7,14 +7,14 @@
     justify-content: space-evenly;
 }
 
-a {
+.navBar a {
     color: var(--navBarText);
     text-decoration: none;
     font-size: 2.2vh;
     text-transform: uppercase;
 }
 
-a:hover{
+.navBar a:hover{
     font-weight: 800;
     color: var(--navBarTextHover);
 }
@@ -27,12 +27,12 @@ a:hover{
   background-color: var(--navBarBackground);
   cursor: pointer;
   border-radius: 8px;
-  border: 2px solid var(--navBarTextHover);
-  color: var(--navBarTextHover);
+  border: 2px solid var(--navBarText);
+  color: var(--navBarText);
   padding: 0.5vw 2vw;
 }
 
 .navBar button:hover {
-  background-color: var(--navBarText);
   color:var(--navBarTextHover);
+  border: 2px solid var(--navBarTextHover);
 }
