@@ -2,7 +2,7 @@
     width: 100%;
     margin: auto;
     background-color: var(--navBarBackground);
-    padding: 2vh;
+    padding: 3vh 0vh 3vh 0vh;
     display: flex;
     justify-content: space-evenly;
 }
@@ -10,7 +10,7 @@
 a {
     color: var(--navBarText);
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 2.2vh;
     text-transform: uppercase;
 }
 
