@@ -1,0 +1,9 @@
+#about {
+  text-align: justify;
+  padding: 5%;
+  display:flex;
+}
+
+.aboutSection {
+  margin: 2vw
+}
