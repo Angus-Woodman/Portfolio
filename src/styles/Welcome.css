@@ -9,7 +9,6 @@
 }
 
 .welcomeContainer i {
-  /* margin-left: 4vw;
-  margin-right: 4vw; */
-  margin: 1.5vw 4vw 0 4vw
+  color: black;
+  margin: 1.5vw 4vw 0 4vw;
 }
