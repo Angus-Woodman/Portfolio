@@ -9,7 +9,6 @@ const About = () => {
                 <h3>Contact details:</h3>
                 <p>+447375646432</p>
                 <p>angus.woodman@outlook.com</p>
-                <button>Download CV</button>
             </div>
             <div className='aboutSection'>
                 <h1>About Me</h1>
