@@ -28,10 +28,11 @@ button {
   cursor: pointer;
   border-radius: 8px;
   border: 2px solid var(--navBarTextHover);
-  color: var(--navBarText);
+  color: var(--navBarTextHover);
   padding: 0.5vw 2vw;
 }
 
 button:hover {
-  background-color: var(--navBarTextHover);
+  background-color: var(--navBarText);
+  color:var(--navBarTextHover);
 }
