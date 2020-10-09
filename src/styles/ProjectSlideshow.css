@@ -1,5 +1,5 @@
 .slide-container {
-  width:70%;
+  width:80%;
   margin:auto;
   margin-top: 10vh;
 }
@@ -16,10 +16,9 @@
   display: block;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.slideImage img {
+  width:90%;
+  margin-left:5%;
 }
 
 .overlay {
@@ -49,4 +48,38 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.projectCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5vh
+}
+
+.card {
+  margin-bottom: 4vh;
+  width:30%;
+  color: black;
+}
+
+.card a {
+  position: absolute;
+  right:5px;
+  bottom:5px;
+}
+
+.card a {
+  background-color: var(--navBarBackground);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--navBarText);
+  color: var(--navBarText);
+  padding: 0.5vw 2vw;
+}
+
+.card a:hover {
+  color:var(--navBarTextHover);
+  border: 2px solid var(--navBarTextHover);
 }

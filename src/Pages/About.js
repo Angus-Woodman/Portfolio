@@ -7,8 +7,8 @@ const About = () => {
             <div className='aboutSection'>
                 <img src="https://i.imgur.com/0ednlgt.png" alt="Angus Woodman Headshot" />
                 <h3>Contact details:</h3>
-                <p>+447375646432</p>
-                <p>angus.woodman@outlook.com</p>
+                <p className="contact">+447375646432</p>
+                <p className="contact">angus.woodman@outlook.com</p>
             </div>
             <div className='aboutSection'>
                 <h1>About Me</h1>
@@ -16,7 +16,7 @@ const About = () => {
                 <h3>University</h3>
                 <p> Throughout my Engineering Mathematics degree I was involved in several projects, where we were tasked with constructing detailed mathematical models, using programming languages Matlab and Python, to solve various real-world problems. This introduction to programming and the satisfaction I experienced from finishing each one of these projects fuelled my desire to pursue a career in programming. </p>
                 <h3>Robotics Project</h3>
-                <p>After finishing my degree I worked on a robotics project for a real estate consultancy. The company wanted to be able to automate the task of taking multiple photos of the inside of warehouses using a 360o camera. I was tasked with finding the best possible solution and building a prototype, which the team could run tests on. During this project I had to learn fast, dealing with unfamiliar pieces of hardware, such as a Pixhawk and a RasberryPi.</p>
+                <p>After finishing my degree I worked on a robotics project for a real estate consultancy. The company wanted to be able to automate the task of taking multiple photos of the inside of warehouses using a 360&deg; camera. I was tasked with finding the best possible solution and building a prototype, which the team could run tests on. During this project I had to learn fast, dealing with unfamiliar pieces of hardware, such as a Pixhawk and a RasberryPi.</p>
                 <h3>Futureproof</h3>
                 <p>Since then I have completed a Full Stack Web Developer course with Futureproof, which has given me a great base to further develop my programming and web development skills.</p>
             </div>
