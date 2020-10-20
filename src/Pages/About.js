@@ -6,9 +6,9 @@ const About = () => {
         <div id="about">
             <div className='aboutSection'>
                 <img src="https://i.imgur.com/0ednlgt.png" alt="Angus Woodman Headshot" />
-                <h3>Contact details:</h3>
+                {/*<h3>Contact details:</h3>
                 <p className="contact">+447375646432</p>
-                <p className="contact">angus.woodman@outlook.com</p>
+                <p className="contact">angus.woodman@outlook.com</p>*/}
             </div>
             <div className='aboutSection'>
                 <h1>About Me</h1>
