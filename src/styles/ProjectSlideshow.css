@@ -56,13 +56,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 5vh
+  margin-top: 5vh;
 }
 
 .card {
   margin-bottom: 4vh;
   width:30%;
   color: black;
+  overflow: scroll;
 }
 
 .card a {
@@ -78,6 +79,10 @@
   border: 2px solid var(--navBarText);
   color: var(--navBarText);
   padding: 0.5vw 2vw;
+}
+
+.card-text {
+  margin-bottom: 30px;
 }
 
 .card a:hover {
