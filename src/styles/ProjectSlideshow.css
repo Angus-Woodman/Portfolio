@@ -43,7 +43,7 @@
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -51,33 +51,69 @@
   text-align: center;
 }
 
+.description{
+  width:70vw
+}
+
+.description, .stack{
+  text-align: left;
+  margin-top: 40px
+}
+
 .projectCardsContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 5vh
+  margin-top: 5vh;
 }
 
 .card {
   margin-bottom: 4vh;
   width:30%;
   color: black;
+  overflow: scroll;
 }
 
-.card a {
+.projectLink{
   position: absolute;
   right:5px;
   bottom:5px;
+  background-color: var(--navBarBackground);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--navBarText);
+  color: var(--navBarText);
+  padding: 0.5vw 1.4vw;
 }
 
-.card a {
+.githubLink{
+  position: absolute;
+  left:5px;
+  bottom:5px;
+  background-color: var(--navBarBackground);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--navBarText);
+  color: var(--navBarText);
+  padding: 0.5vw 1.4vw;
+}
+
+
+/* .card a {
+  position: absolute;
+  right:5px;
+  bottom:5px;
   background-color: var(--navBarBackground);
   cursor: pointer;
   border-radius: 8px;
   border: 2px solid var(--navBarText);
   color: var(--navBarText);
   padding: 0.5vw 2vw;
+} */
+
+.card-text {
+  margin-bottom: 30px;
 }
 
 .card a:hover {

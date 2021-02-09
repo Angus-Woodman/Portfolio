@@ -18,7 +18,7 @@ const About = () => {
                 <h3>Robotics Project</h3>
                 <p>After finishing my degree I worked on a robotics project for a real estate consultancy. The company wanted to be able to automate the task of taking multiple photos of the inside of warehouses using a 360&deg; camera. I was tasked with finding the best possible solution and building a prototype, which the team could run tests on. During this project I had to learn fast, dealing with unfamiliar pieces of hardware, such as a Pixhawk and a RasberryPi.</p>
                 <h3>Futureproof</h3>
-                <p>Since then I have completed a Full Stack Web Developer course with Futureproof, which has given me a great base to further develop my programming and web development skills.</p>
+                <p>Since then I have graduated from the Full Stack Web Developer course with Futureproof and completed serveral group and personal projects. This has given me a great base to further develop my programming and web development skills.</p>
             </div>
         </div>
     );
