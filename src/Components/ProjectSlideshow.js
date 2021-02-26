@@ -21,6 +21,16 @@ const fadeProperties = {
 const projects =  [
   {
     id:1,
+    link: 'https://github.com/Angus-Woodman/stripeVanillaJS',
+    github:'https://github.com/Angus-Woodman/stripeVanillaJS',
+    img: 'https://i.imgur.com/fsLKco5.png',
+    title: 'Stripe integration project',
+    description: 'Created a online exhibition for Kimi Zoet\'s art to learn how to integrate a stripe payment flow',
+    stack: 'React front-end and JavaScript & Express Server',
+    deployment: 'Site not deployed'
+  },
+  {
+    id:2,
     link: 'https://image-crud-test.netlify.app',
     github:'https://github.com/Angus-Woodman/imageCrudClient',
     img: 'https://i.imgur.com/cnE6IUu.png',
@@ -30,7 +40,7 @@ const projects =  [
     deployment: 'Netlify (front-end), Heroku (back-end) and MongoDB Atlas, Cloudinary to store image files.'
   },
   {
-  id:2,
+  id:3,
   link: 'https://trivia-boss.netlify.app/',
   github:'https://github.com/Angus-Woodman/quizzo',
   img: 'https://i.imgur.com/H38LDpI.png',
@@ -40,7 +50,7 @@ const projects =  [
   deployment: 'Netlify'
 },
 {
-  id:3,
+  id:4,
   link:'https://github.com/Angus-Woodman/captains-log',
   github:'https://github.com/Angus-Woodman/captains-log',
   img: 'https://i.imgur.com/QUFDIab.png',
@@ -50,7 +60,7 @@ const projects =  [
   deployment: 'Deployed site coming soon'
 },
 {
-  id:4,
+  id:5,
   link: 'https://github.com/Angus-Woodman/Habitapp',
   github:'https://github.com/Angus-Woodman/Habitapp',
   img: 'https://i.imgur.com/X7YYqNJ.png',
@@ -60,7 +70,7 @@ const projects =  [
   deployment: 'Deployed site coming soon'
 },
 {
-  id:5,
+  id:6,
   link: 'https://musing-hopper-288ea1.netlify.app/',
   github:'https://github.com/Angus-Woodman/blogservice',
   img: 'https://i.imgur.com/cnE6IUu.png',
@@ -70,7 +80,7 @@ const projects =  [
   deployment: 'Deployed site coming soon'
 },
 {
-  id:6,
+  id:7,
   link: 'https://angusannagooglesearch.netlify.app/',
   github:'https://github.com/Angus-Woodman/google-project',
   img: 'https://i.imgur.com/RppZnsL.png',
